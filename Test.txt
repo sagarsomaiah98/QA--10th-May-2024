@@ -1,1 +1,7 @@
 Welcome to janbask training
+
+Selenium is automation tool
+
+Java is a programming language
+
+Testng is automation framework

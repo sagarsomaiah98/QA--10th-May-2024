@@ -7,7 +7,7 @@ public class String_indexOf {
 
 		
 		System.out.println(value.indexOf('e'));
-		System.out.println(value.indexOf('e',5));
+		System.out.println(value.indexOf('e',7));
 
 	}
 

@@ -10,7 +10,7 @@ public class t1 {
 	//	cas.lowerCase("PeTer");
 		
 	
-		Math mat= new Math();
+	//	Math mat= new Math();
 		
 	
 		

@@ -1,16 +1,21 @@
 package AbstractionConcept;
 
-public abstract class Bank {
+public abstract  class Bank {
 	
-	public abstract void savings();
-	
-	public abstract void insurance();
-	
-	
-	public void kyc() {
-		
-		System.out.println("social security number");
-	}
 
+	public void insurance() {
+		
+		System.out.println("insurace cost 100");
+	}
+	
+	public void creditcard() {
+		
+		System.out.println("credit card charges 50$");
+	}
+	
+	public abstract void locker() ;
+	
+
+	
 	
 }

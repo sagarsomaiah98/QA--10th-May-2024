@@ -2,16 +2,18 @@ package PolyMorphismMethodOverriding;
 
 public class A {
 	
-	public void display() {
+	public void house() {
 		
-		System.out.println("calling method display in class A");
+		System.out.println("House belong A class");
 	}
 	
-	public void info() {
+	
+	public void factory() {
+		System.out.println("Factory belongs to A Class");
 		
-		System.out.println("calling info in class A");
+		
 	}
-
+	
 	public static void main(String[] args) {
 		
 

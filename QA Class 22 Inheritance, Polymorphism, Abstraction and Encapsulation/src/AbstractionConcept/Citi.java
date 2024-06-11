@@ -1,25 +1,22 @@
 package AbstractionConcept;
 
-public class Citi extends Bank {
+public class Citi extends Bank{
 
 	public static void main(String[] args) {
+		
 		Citi c = new Citi();
-		c.savings();
+		c.creditcard();
 		c.insurance();
-		c.kyc();
+		c.locker();
 
 	}
 
 	@Override
-	public void savings() {
-		System.out.println("citi savings account min is 25k $");
+	public void locker() {
+		System.out.println("citi provides locker at 50$");
 		
 	}
 
-	@Override
-	public void insurance() {
-		System.out.println("citi insurance is 50$");
-		
-	}
+	
 
 }

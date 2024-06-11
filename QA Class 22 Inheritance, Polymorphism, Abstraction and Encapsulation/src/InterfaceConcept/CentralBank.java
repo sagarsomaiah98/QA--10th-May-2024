@@ -2,17 +2,17 @@ package InterfaceConcept;
 
 public interface CentralBank {
 	
-	//unimplemented methods / methods without body
+	//in interface you cannot have method with body or implementation
+	//interface will have unimplemented methods/methods without body
 	
-	public void saving();
+	public void savings();
 	
-	public void loans();
+	public void insurance() ;
 	
-	public void insurance();
+	public void loan () ;
+	
+	public void creditcard();
 	
 	public void kyc() ;
-	
-	
-	public void current();
 
 }

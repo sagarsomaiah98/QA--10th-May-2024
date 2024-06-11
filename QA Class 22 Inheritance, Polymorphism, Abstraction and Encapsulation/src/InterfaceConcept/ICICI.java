@@ -1,41 +1,45 @@
 package InterfaceConcept;
 
-public class ICICI implements CentralBank{
+public class ICICI implements CentralBank {
 
 	public static void main(String[] args) {
-		ICICI i= new ICICI();
-		i.saving();
-		i.insurance();
-		i.loans();
+		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void saving() {
-		System.out.println("saving interest rate is 5.4");
+	public void savings() {
+		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void loans() {
-		System.out.println("loan interest rate is 4.1");
-		
-	}
+
 
 	@Override
-	public void insurance() {
-		System.out.println("insurance premium is 100$");
-		
-	}
-
-	@Override
-	public void kyc() {
+	public void loan() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void current() {
+	public void creditcard() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void insurance() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void locker() {
+		
+		
+	}
+
+	@Override
+	public void kyc() {
 		// TODO Auto-generated method stub
 		
 	}

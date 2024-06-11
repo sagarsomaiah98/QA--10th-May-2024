@@ -2,20 +2,21 @@ package PolyMorphismMethodOverriding;
 
 public class B extends A{
 	
-	//overriding- modifying the parent method in child class, changing the implementation of parent class in child class
+	//changing the implementation of parent method in child is called method overriding
 	
-	public void display() {
+public void house() {
 		
-		System.out.println("display method modified");
-		System.out.println("calling display method in class B");
+		System.out.println("modified by class B");
 	}
+	
+	
+
 
 	public static void main(String[] args) {
 		
-		B b= new B();
-		b.display();
-		b.info();
-		
+		B b = new B();
+		b.factory();
+		b.house();
 		
 
 	}

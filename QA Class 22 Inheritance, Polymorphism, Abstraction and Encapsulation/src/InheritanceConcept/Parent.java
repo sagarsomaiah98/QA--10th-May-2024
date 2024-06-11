@@ -1,27 +1,28 @@
 package InheritanceConcept;
 
 public class Parent {
-	int grad='A';
-	String lname="Winchester";
 	
-	//method or functions
-	public void house() {
-		
-		System.out.println("house belongs to parent");
-	}
+	double pension=434.66;
+	char grade='A';
 	
-	public void factory() {
-		
-		System.out.println("factory belongs to parent");
-	}
+	
+public void house() {
+	
+	System.out.println("calling house in parent");
+}
+
+public void factory() {
+	
+	System.out.println("calling factory in parent");
+}
+	
 
 	public static void main(String[] args) {
 		
-		Parent p= new Parent();
-		p.house();
-		p.factory();
-		System.out.println(p.grad);
-		System.out.println(p.lname);
+ Parent p = new Parent();
+ p.house();
+ p.factory();
+
 		
 
 	}

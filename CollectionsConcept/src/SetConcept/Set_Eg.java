@@ -7,34 +7,32 @@ import java.util.Set;
 public class Set_Eg {
 
 	public static void main(String[] args) {
-		//duplicates are not allowed
 		
-		Set<String> colors= new HashSet<String>();
-		colors.add("red");
-		colors.add("black");
-		colors.add("green");
+		Set<String> colors= new HashSet<>();
+		colors.add("Red");
+		colors.add("Blue");
+		colors.add("Green");
+		colors.add("Black");
 		System.out.println(colors.size());
-	//	colors.add("Black");
-	//	colors.add("green");
+		colors.add("Red");//duplicate
+		//colors.add("black");
 		System.out.println(colors.size());
 		
-	//	System.out.println(colors.get(2));
-		
-		Iterator<String> it= colors.iterator();
-		
+		Iterator<String> it= colors.iterator();// create a iterator and attach itself to the colors set
 		/*
-		 * System.out.println(it.next()); System.out.println(it.hasNext());//checks if
-		 * there is a value after this System.out.println(it.next());
-		 * System.out.println(it.hasNext()); System.out.println(it.next());
-		 * System.out.println(it.hasNext());
+		 * System.out.println(it.next());//it will give the value its pointed to and
+		 * then moves to next one System.out.println(it.hasNext());
+		 * System.out.println(it.next()); System.out.println(it.hasNext());
+		 * System.out.println(it.next()); System.out.println(it.hasNext());
+		 * System.out.println(it.next()); System.out.println(it.hasNext());
 		 */
+		System.out.println("********************************");
+		
 		while(it.hasNext()) {
-			
 			System.out.println(it.next());
 			
 		}
 		
-		
-	}
+}
 
 }

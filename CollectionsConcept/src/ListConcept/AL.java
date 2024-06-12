@@ -7,25 +7,30 @@ public class AL {
 
 	public static void main(String[] args) {
 		
-		List<String> students= new ArrayList<String>();
 		
-		students.add("steve");
-		students.add("jack");
-		students.add("Chris");
-		//students.add(23);
+		List<String> names= new ArrayList<>();
+		names.add("Henry");
+		names.add("Peter");
+		names.add("Leo");
 		
-		System.out.println(students.size());
-		students.add("henry");
-		students.add("dean");
-	//	System.out.println(students.size());
+		System.out.println(names.size());
 		
-	//	System.out.println(students.get(6));
+		names.add("Mark");
+		names.add("Alice");
+		names.add("Nisha");
+		//names.add("Leo"); duplicates are allowed
 		
+		System.out.println(names.size());
 		
-		for(int i=0;i<students.size();i++) {
+	//	System.out.println(names.get(6));
+		
+		for(int i=0;i<names.size();i++) {
+			System.out.println(names.get(i));
 			
-			System.out.println(students.get(i));
 		}
+		
+		
+		
 		
 		
 	}

@@ -1,7 +1,10 @@
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Double_Click {
 
@@ -17,7 +20,10 @@ public class Double_Click {
 		driver.get("https://demoqa.com/buttons");
 		driver.manage().window().maximize();
 
-		
+		WebElement doubleButton=driver.findElement(By.xpath("//button[@id='doubleClickBtn']"));
+		Actions act= new Actions(driver);
+		Thread.sleep(2000);
+		act.doubleClick(doubleButton).build().perform();
 		
 	
 		

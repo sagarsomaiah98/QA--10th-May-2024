@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-25T22:53:18 GMT-03:00" name="SauceSuite" finished-at="2024-06-25T22:53:42 GMT-03:00" duration-ms="23124">
+    <groups>
+    </groups>
+    <test started-at="2024-06-25T22:53:18 GMT-03:00" name="SauceTests" finished-at="2024-06-25T22:53:42 GMT-03:00" duration-ms="23124">
+      <class name="SauceTests.LogoutTest">
+        <test-method signature="logout()[pri:0, instance:SauceTests.LogoutTest@61386958]" started-at="2024-06-25T22:53:28 GMT-03:00" name="logout" finished-at="2024-06-25T22:53:35 GMT-03:00" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- SauceTests.LogoutTest -->
+      <class name="SauceTests.LoginTest">
+        <test-method signature="login()[pri:0, instance:SauceTests.LoginTest@73ee04c8]" started-at="2024-06-25T22:53:35 GMT-03:00" name="login" finished-at="2024-06-25T22:53:42 GMT-03:00" duration-ms="6235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- SauceTests.LoginTest -->
+      <class name="SauceTests.AddToCartTest">
+        <test-method signature="addtocart()[pri:0, instance:SauceTests.AddToCartTest@e1de817]" started-at="2024-06-25T22:53:19 GMT-03:00" name="addtocart" finished-at="2024-06-25T22:53:28 GMT-03:00" duration-ms="9243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- SauceTests.AddToCartTest -->
+    </test> <!-- SauceTests -->
+  </suite> <!-- SauceSuite -->
+</testng-results>

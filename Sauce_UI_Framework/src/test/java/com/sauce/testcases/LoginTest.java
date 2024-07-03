@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import com.sauce.pages.LoginPage;
 import com.sauce.testbase.TestBase;
+import com.sauce.util.TestUtil;
 
 public class LoginTest extends TestBase {
 	
@@ -23,6 +24,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage log= new LoginPage();
 		log.login("standard_user", "secret_sauce");
+		TestUtil.Screenshot();
 		
 	
 	}
@@ -33,6 +35,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage log= new LoginPage();
 		log.login("username1", "secret_sauce");
+		TestUtil.Screenshot();
 		
 		
 	}
